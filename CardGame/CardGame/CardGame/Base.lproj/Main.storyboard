@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eiO-fe-P82">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Kx2-Sa-afK">
+            <objects>
+                <viewController id="eiO-fe-P82" customClass="ViewController" customModule="CardGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vbY-CZ-oEk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uX3-85-s82">
+                                <rect key="frame" x="37" y="55" width="77" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="wJX-NI-PcA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jF-pD-IkZ">
+                                <rect key="frame" x="209" y="55" width="82" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="7gp-bq-6rb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXZ-mH-TZ2">
+                                <rect key="frame" x="299" y="55" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="c6p-2N-Jwd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDe-SL-UdO">
+                                <rect key="frame" x="209" y="182" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="Jxb-w1-s7F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEd-Oh-Hcq">
+                                <rect key="frame" x="122" y="182" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="wc6-69-giP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmH-I3-wH9">
+                                <rect key="frame" x="36" y="182" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="Gn8-7S-6Ty"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2t-bs-Yjt">
+                                <rect key="frame" x="37" y="309" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="0Hn-Tz-6DE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwQ-PE-VAY">
+                                <rect key="frame" x="122" y="309" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="aOg-l9-eJ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPo-eD-qMT">
+                                <rect key="frame" x="209" y="309" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="dKY-0y-7Sc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2b7-bj-M0P">
+                                <rect key="frame" x="295" y="309" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="6az-Lb-mQX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Count : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljw-iB-5Hm">
+                                <rect key="frame" x="20" y="616" width="331" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sle-DE-ksE">
+                                <rect key="frame" x="122" y="55" width="79" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="4Zg-mQ-Kea"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxv-nG-ct1">
+                                <rect key="frame" x="295" y="182" width="78" height="119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="53"/>
+                                <connections>
+                                    <action selector="tapButton:" destination="eiO-fe-P82" eventType="touchUpInside" id="iXY-jI-e4C"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HdA-BJ-2W2"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="countLabel" destination="ljw-iB-5Hm" id="PBg-KD-dFK"/>
+                        <outletCollection property="CardButtons" destination="uX3-85-s82" collectionClass="NSMutableArray" id="QW8-fN-i1g"/>
+                        <outletCollection property="CardButtons" destination="sle-DE-ksE" collectionClass="NSMutableArray" id="NC8-BE-EM8"/>
+                        <outletCollection property="CardButtons" destination="0jF-pD-IkZ" collectionClass="NSMutableArray" id="D7H-kB-IP7"/>
+                        <outletCollection property="CardButtons" destination="rXZ-mH-TZ2" collectionClass="NSMutableArray" id="0lB-67-RYv"/>
+                        <outletCollection property="CardButtons" destination="DmH-I3-wH9" collectionClass="NSMutableArray" id="1RS-xj-aPN"/>
+                        <outletCollection property="CardButtons" destination="oEd-Oh-Hcq" collectionClass="NSMutableArray" id="TnJ-GQ-j9n"/>
+                        <outletCollection property="CardButtons" destination="rDe-SL-UdO" collectionClass="NSMutableArray" id="z6a-MY-6m8"/>
+                        <outletCollection property="CardButtons" destination="Rxv-nG-ct1" collectionClass="NSMutableArray" id="Epi-52-D05"/>
+                        <outletCollection property="CardButtons" destination="O2t-bs-Yjt" collectionClass="NSMutableArray" id="mgO-ej-Syg"/>
+                        <outletCollection property="CardButtons" destination="GwQ-PE-VAY" collectionClass="NSMutableArray" id="98t-gO-Y65"/>
+                        <outletCollection property="CardButtons" destination="fPo-eD-qMT" collectionClass="NSMutableArray" id="tuA-cz-r8S"/>
+                        <outletCollection property="CardButtons" destination="2b7-bj-M0P" collectionClass="NSMutableArray" id="OPG-Pr-ZOg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qDQ-pD-7mJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
